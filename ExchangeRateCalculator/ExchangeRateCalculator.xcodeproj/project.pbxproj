@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		696816F7945AB6B132F2C70A /* Pods_ExchangeRateCalculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEB680406C4502DCC78F92D3 /* Pods_ExchangeRateCalculator.framework */; };
+		D9F8710B23595112008B24E5 /* CurrencyListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F8710A23595112008B24E5 /* CurrencyListViewController.m */; };
+		D9F8710E23595485008B24E5 /* HuiLvTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F8710D23595485008B24E5 /* HuiLvTableViewCell.m */; };
+		D9F87111235957EF008B24E5 /* ExchangeRate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F87110235957EF008B24E5 /* ExchangeRate.m */; };
 		D9FF91C7235857CC001C9C01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FF91C6235857CC001C9C01 /* AppDelegate.m */; };
 		D9FF91CA235857CC001C9C01 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FF91C9235857CC001C9C01 /* SceneDelegate.m */; };
 		D9FF91CD235857CC001C9C01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FF91CC235857CC001C9C01 /* ViewController.m */; };
@@ -14,10 +18,20 @@
 		D9FF91D2235857CE001C9C01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9FF91D1235857CE001C9C01 /* Assets.xcassets */; };
 		D9FF91D5235857CE001C9C01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9FF91D3235857CE001C9C01 /* LaunchScreen.storyboard */; };
 		D9FF91D8235857CE001C9C01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FF91D7235857CE001C9C01 /* main.m */; };
+		D9FF91E523585B2F001C9C01 /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FF91E423585B2F001C9C01 /* CalculatorViewController.m */; };
+		D9FF91E823585BFA001C9C01 /* CalculatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FF91E723585BFA001C9C01 /* CalculatorView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D9FF91C2235857CC001C9C01 /* ExchangeRateCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExchangeRateCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9743150972125A6F9CC5019 /* Pods-ExchangeRateCalculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExchangeRateCalculator.debug.xcconfig"; path = "Target Support Files/Pods-ExchangeRateCalculator/Pods-ExchangeRateCalculator.debug.xcconfig"; sourceTree = "<group>"; };
+		D10BFA2E6A007C9BA8070178 /* Pods-ExchangeRateCalculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExchangeRateCalculator.release.xcconfig"; path = "Target Support Files/Pods-ExchangeRateCalculator/Pods-ExchangeRateCalculator.release.xcconfig"; sourceTree = "<group>"; };
+		D9F8710923595112008B24E5 /* CurrencyListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CurrencyListViewController.h; sourceTree = "<group>"; };
+		D9F8710A23595112008B24E5 /* CurrencyListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CurrencyListViewController.m; sourceTree = "<group>"; };
+		D9F8710C23595484008B24E5 /* HuiLvTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HuiLvTableViewCell.h; sourceTree = "<group>"; };
+		D9F8710D23595485008B24E5 /* HuiLvTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HuiLvTableViewCell.m; sourceTree = "<group>"; };
+		D9F8710F235957EF008B24E5 /* ExchangeRate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExchangeRate.h; sourceTree = "<group>"; };
+		D9F87110235957EF008B24E5 /* ExchangeRate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExchangeRate.m; sourceTree = "<group>"; };
+		D9FF91C2235857CC001C9C01 /* 汇率计算器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "汇率计算器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9FF91C5235857CC001C9C01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D9FF91C6235857CC001C9C01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D9FF91C8235857CC001C9C01 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
@@ -29,6 +43,12 @@
 		D9FF91D4235857CE001C9C01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9FF91D6235857CE001C9C01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9FF91D7235857CE001C9C01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9FF91E323585B2F001C9C01 /* CalculatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorViewController.h; sourceTree = "<group>"; };
+		D9FF91E423585B2F001C9C01 /* CalculatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewController.m; sourceTree = "<group>"; };
+		D9FF91E623585BFA001C9C01 /* CalculatorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorView.h; sourceTree = "<group>"; };
+		D9FF91E723585BFA001C9C01 /* CalculatorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorView.m; sourceTree = "<group>"; };
+		D9FF91EA23585D4F001C9C01 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		FEB680406C4502DCC78F92D3 /* Pods_ExchangeRateCalculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExchangeRateCalculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,24 +56,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				696816F7945AB6B132F2C70A /* Pods_ExchangeRateCalculator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD0AF30E1AEC0B82115EEE43 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A9743150972125A6F9CC5019 /* Pods-ExchangeRateCalculator.debug.xcconfig */,
+				D10BFA2E6A007C9BA8070178 /* Pods-ExchangeRateCalculator.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D378A41307B8A71A5506A504 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEB680406C4502DCC78F92D3 /* Pods_ExchangeRateCalculator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D9FF91B9235857CC001C9C01 = {
 			isa = PBXGroup;
 			children = (
 				D9FF91C4235857CC001C9C01 /* ExchangeRateCalculator */,
 				D9FF91C3235857CC001C9C01 /* Products */,
+				BD0AF30E1AEC0B82115EEE43 /* Pods */,
+				D378A41307B8A71A5506A504 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		D9FF91C3235857CC001C9C01 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D9FF91C2235857CC001C9C01 /* ExchangeRateCalculator.app */,
+				D9FF91C2235857CC001C9C01 /* 汇率计算器.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,19 +101,78 @@
 		D9FF91C4235857CC001C9C01 /* ExchangeRateCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				D9FF91E923585D41001C9C01 /* Header */,
+				D9FF91DE23585957001C9C01 /* AppDelegate */,
+				D9FF91DF23585976001C9C01 /* Class */,
+				D9FF91D1235857CE001C9C01 /* Assets.xcassets */,
+			);
+			path = ExchangeRateCalculator;
+			sourceTree = "<group>";
+		};
+		D9FF91DE23585957001C9C01 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				D9FF91CE235857CC001C9C01 /* Main.storyboard */,
+				D9FF91D3235857CE001C9C01 /* LaunchScreen.storyboard */,
+				D9FF91D6235857CE001C9C01 /* Info.plist */,
+				D9FF91D7235857CE001C9C01 /* main.m */,
 				D9FF91C5235857CC001C9C01 /* AppDelegate.h */,
 				D9FF91C6235857CC001C9C01 /* AppDelegate.m */,
 				D9FF91C8235857CC001C9C01 /* SceneDelegate.h */,
 				D9FF91C9235857CC001C9C01 /* SceneDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		D9FF91DF23585976001C9C01 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				D9FF91E22358598E001C9C01 /* Controller */,
+				D9FF91E02358598E001C9C01 /* Model */,
+				D9FF91E12358598E001C9C01 /* View */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		D9FF91E02358598E001C9C01 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D9F8710F235957EF008B24E5 /* ExchangeRate.h */,
+				D9F87110235957EF008B24E5 /* ExchangeRate.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D9FF91E12358598E001C9C01 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D9FF91E623585BFA001C9C01 /* CalculatorView.h */,
+				D9FF91E723585BFA001C9C01 /* CalculatorView.m */,
+				D9F8710C23595484008B24E5 /* HuiLvTableViewCell.h */,
+				D9F8710D23595485008B24E5 /* HuiLvTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D9FF91E22358598E001C9C01 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
 				D9FF91CB235857CC001C9C01 /* ViewController.h */,
 				D9FF91CC235857CC001C9C01 /* ViewController.m */,
-				D9FF91CE235857CC001C9C01 /* Main.storyboard */,
-				D9FF91D1235857CE001C9C01 /* Assets.xcassets */,
-				D9FF91D3235857CE001C9C01 /* LaunchScreen.storyboard */,
-				D9FF91D6235857CE001C9C01 /* Info.plist */,
-				D9FF91D7235857CE001C9C01 /* main.m */,
+				D9FF91E323585B2F001C9C01 /* CalculatorViewController.h */,
+				D9FF91E423585B2F001C9C01 /* CalculatorViewController.m */,
+				D9F8710923595112008B24E5 /* CurrencyListViewController.h */,
+				D9F8710A23595112008B24E5 /* CurrencyListViewController.m */,
 			);
-			path = ExchangeRateCalculator;
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D9FF91E923585D41001C9C01 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				D9FF91EA23585D4F001C9C01 /* PrefixHeader.pch */,
+			);
+			path = Header;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D9FF91DB235857CE001C9C01 /* Build configuration list for PBXNativeTarget "ExchangeRateCalculator" */;
 			buildPhases = (
+				A3AE47EDCF3C9676A2FC0A05 /* [CP] Check Pods Manifest.lock */,
 				D9FF91BE235857CC001C9C01 /* Sources */,
 				D9FF91BF235857CC001C9C01 /* Frameworks */,
 				D9FF91C0235857CC001C9C01 /* Resources */,
+				1FAB2107B2443F1D80F4292B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -93,7 +194,7 @@
 			);
 			name = ExchangeRateCalculator;
 			productName = ExchangeRateCalculator;
-			productReference = D9FF91C2235857CC001C9C01 /* ExchangeRateCalculator.app */;
+			productReference = D9FF91C2235857CC001C9C01 /* 汇率计算器.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -141,13 +242,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1FAB2107B2443F1D80F4292B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExchangeRateCalculator/Pods-ExchangeRateCalculator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExchangeRateCalculator/Pods-ExchangeRateCalculator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExchangeRateCalculator/Pods-ExchangeRateCalculator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3AE47EDCF3C9676A2FC0A05 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExchangeRateCalculator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D9FF91BE235857CC001C9C01 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D9FF91CD235857CC001C9C01 /* ViewController.m in Sources */,
+				D9F8710B23595112008B24E5 /* CurrencyListViewController.m in Sources */,
+				D9F8710E23595485008B24E5 /* HuiLvTableViewCell.m in Sources */,
 				D9FF91C7235857CC001C9C01 /* AppDelegate.m in Sources */,
+				D9FF91E823585BFA001C9C01 /* CalculatorView.m in Sources */,
+				D9F87111235957EF008B24E5 /* ExchangeRate.m in Sources */,
+				D9FF91E523585B2F001C9C01 /* CalculatorViewController.m in Sources */,
 				D9FF91D8235857CE001C9C01 /* main.m in Sources */,
 				D9FF91CA235857CC001C9C01 /* SceneDelegate.m in Sources */,
 			);
@@ -225,7 +373,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -277,7 +425,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -287,35 +435,41 @@
 		};
 		D9FF91DC235857CE001C9C01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9743150972125A6F9CC5019 /* Pods-ExchangeRateCalculator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WY35GL3MV8;
-				INFOPLIST_FILE = ExchangeRateCalculator/Info.plist;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ExchangeRateCalculator/Header/PrefixHeader.pch";
+				INFOPLIST_FILE = ExchangeRateCalculator/AppDelegate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yongjie.ExchangeRateCalculator;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PRODUCT_NAME = "汇率计算器";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		D9FF91DD235857CE001C9C01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D10BFA2E6A007C9BA8070178 /* Pods-ExchangeRateCalculator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WY35GL3MV8;
-				INFOPLIST_FILE = ExchangeRateCalculator/Info.plist;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ExchangeRateCalculator/Header/PrefixHeader.pch";
+				INFOPLIST_FILE = ExchangeRateCalculator/AppDelegate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yongjie.ExchangeRateCalculator;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PRODUCT_NAME = "汇率计算器";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
